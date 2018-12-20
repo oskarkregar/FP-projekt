@@ -37,5 +37,3 @@ def pozresna_metoda(G): #G je matrika sosednosti
     while koncaj==False:
         [X,Y,koncaj]= pomozna(G,X,Y)
     return X,Y
-
-
